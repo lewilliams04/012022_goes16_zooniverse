@@ -7,8 +7,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Extract Files
         run: |
-          unzip -o Archive.zip
-          rm Archive.zip
+          unzip -o zooniverse.zip
+          rm zooniverse.zip
       - name: Commit Files
         run: |
           git config --global user.name "github-actions"
